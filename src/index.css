@@ -8,27 +8,39 @@
   font-style: normal;
 }
 .nav-bg {
-background: rgba(255, 255, 255, 0.22);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(11.3px);
--webkit-backdrop-filter: blur(11.3px);
-border: 1px solid rgba(255, 255, 255, 0.32);
-}
-.nav-bg a{
-    color: white;
+  background: rgba(255, 255, 255, 0.22);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.3px);
+  -webkit-backdrop-filter: blur(11.3px);
+  border: 1px solid rgba(255, 255, 255, 0.32);
 }
 
+
 .bg {
-  background: linear-gradient(
-    135deg,
-    #ff4d6d 0%,
-    #f87537 25%,
-    #f9b233 50%,
-    #d94efc 75%,
-    #6b00ff 100%
-  );
+  background: linear-gradient(135deg,#b68af0  0%, #c3a5e9 50%,#ffff  100%);
   background-attachment: fixed;
-  background-size: 200% 200%;
   min-height: 100vh;
+  color: #222;
+}
+.effect :hover {
+  background: rgba(255, 255, 255, 0.57);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  color: black;
+}
+.effect a {
+  padding: 8px;
+}
+.btn{
+    background: rgba(255, 255, 255, 0.57);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  color: black;
+  cursor: pointer;
 }
